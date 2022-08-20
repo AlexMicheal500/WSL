@@ -1,0 +1,11 @@
+To provision ubuntu wsl, follow these steps:
+1. Go to windows store and download terminal and ubuntu 20.04
+2. Go to search on your windows and type "Turn Windows Features On or Off". Then
+   scroll down to make sure "Windows Subsystem for Linux" is enabled.
+3. Run powershell as an administrator and run the following commands:
+   Step 1 - Enable the Windows Subsystem for Linux
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+   Step 3 - Enable Virtual Machine feature
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+4. Then enter your ubuntu 20.04 app.
