@@ -1,5 +1,6 @@
 To provision ubuntu wsl, follow these steps:
-1. Go to windows store and download terminal, ubuntu 20.04 and download wsl setup from 
+1. Go to windows store and download terminal, ubuntu 20.04 and download wsl (linux package) using step 4 of the 
+link https://github.com/AlexMicheal500/WSL/blob/main/WSL/install-manual.md
 2. Go to search on your windows and type "Turn Windows Features On or Off". Then
    scroll down to make sure "Windows Subsystem for Linux" is enabled.
 3. Run powershell as an administrator and run the following commands:
