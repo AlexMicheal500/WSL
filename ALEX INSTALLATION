@@ -1,5 +1,5 @@
 To provision ubuntu wsl, follow these steps:
-1. Go to windows store and download terminal, ubuntu 20.04 and download wsl (linux package) using step 4 of the 
+1. Go to windows store and download in the following order: ubuntu 20.04, terminal and download wsl (linux package) using step 4 of the 
 link https://github.com/AlexMicheal500/WSL/blob/main/WSL/install-manual.md
 2. Go to search on your windows and type "Turn Windows Features On or Off". Then
    scroll down to make sure "Windows Subsystem for Linux" is enabled.
@@ -10,3 +10,8 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
 4. Then enter your ubuntu 20.04 app.
+5. To add git, you follow the following steps:
+a. Go to settings and go to "Add a new profile"
+b. Go to "New empty Profile"
+c. Go to "command line" and paste     "C:\Program Files\Git\bin\bash.exe" --login -i 
+To learn more visit the link https://www.youtube.com/watch?v=zM9Mb-otqww
